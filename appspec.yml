@@ -1,9 +1,9 @@
 version: 0.0
-os: linux
+os: windows
 files:
-  - source: /
-    destination: /home/ec2-user
+  - source: \index.html
+    destination: c:\inetpub\wwwroot
 hooks:
-  ApplicationStart:
-    - location: ./installApp.sh
-      timeout: 300
+  BeforeInstall:
+    - location: \before-install.bat
+      timeout: 900
