@@ -10,3 +10,4 @@ artifacts:
     - src/HelloWorldWebCore/build_output/*
     - appspec.yml
     - before-install.bat
+    - index.html
