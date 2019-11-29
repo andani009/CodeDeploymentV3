@@ -3,7 +3,9 @@ os: windows
 files:
   - source: \index.html
     destination: c:\inetpub\wwwroot
-    source: \src\HelloWorldWebCore\build_output\*
+    source: \src\HelloWorldWebCore\*
+   
+  
     destination: c:\inetpub\wwwroot\Great
 hooks:
   BeforeInstall:
