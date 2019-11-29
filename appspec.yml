@@ -3,7 +3,7 @@ os: windows
 files:
   - source: \index.html
     destination: c:\inetpub\wwwroot
-    source: \src\*
+    source: \index.html
     destination: c:\inetpub\wwwroot\Great
 hooks:
   BeforeInstall:
