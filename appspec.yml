@@ -8,4 +8,8 @@ hooks:
   BeforeInstall:
     - location: \before-install.bat
       timeout: 900
-   runas: Administrator
+      
+  AfterInstall:
+ -location: \after-install.bat 
+   timeout: 900
+   
