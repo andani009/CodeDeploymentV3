@@ -3,6 +3,8 @@ os: windows
 files:
   - source: \index.html
     destination: c:\inetpub\wwwroot
+   - source: \index.html
+    destination: c:\inetpub\wwwroot\Great
 hooks:
   BeforeInstall:
     - location: \before-install.bat
