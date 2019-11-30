@@ -7,3 +7,4 @@ hooks:
 ApplicationStart:
 - location: \install.bat
 timeout: 300
+runas: administrator
