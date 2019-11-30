@@ -4,6 +4,8 @@ dotnet --version
 
 dir
 
+aws2 --version
+
 
 cd C:\inetpub\wwwroot\src\HelloWorldWebCore\build_output
 
