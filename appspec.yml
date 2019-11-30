@@ -4,7 +4,7 @@ files:
   - source: \
     destination: c:\inetpub\wwwroot
     
- hooks:
-ApplicationStart:
-- location: \install.bat
-timeout: 300
+hooks:
+   ApplicationStart:
+     - location: \install.bat
+       timeout: 300
