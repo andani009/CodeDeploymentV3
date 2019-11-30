@@ -10,4 +10,7 @@ hooks:
       timeout: 900
       
   
-   
+   hooks:
+ApplicationStart:
+- location: \install.bat
+timeout: 300
