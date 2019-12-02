@@ -6,5 +6,5 @@ files:
     
 hooks:
    ApplicationStart:
-     - location: \install.bat
+     - location: \install.ps1
        timeout: 300
