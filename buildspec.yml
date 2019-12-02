@@ -9,5 +9,5 @@ artifacts:
   files:
     - src/HelloWorldWebCore/build_output/*
     - appspec.yml
-    - install.bat
+    - install.ps1
     - index.html
