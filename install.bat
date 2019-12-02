@@ -1,2 +1,2 @@
-cd C:\inetpub\wwwroot\src\HelloWorldWebCore\build_output
-dotnet HelloWorldWebCore.dll
+cd C:\Users\Administrator\Desktop
+script.bat
